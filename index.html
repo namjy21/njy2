@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+ </head>
+ <style>
+	h1{background:silver;
+	   color:white;
+	   }
+	div{
+		position:relative;
+		background:orange;
+		height:200px;
+		}
+	div .abs1{
+		position:absolute;
+		bottom:0px;
+		right:0px;
+		width:300px;
+		height:100px;
+		margin:0;
+		background:aqua;
+		}
+	div .abs2{
+		position:absolute;
+		top:0px;
+		left:0px;
+		width:300px;
+		height:100px;
+		margin:0;
+		background:aqua;
+	}
+
+ </style>
+ <body>
+	<h1>Absolute Postion-컨테이너</h1>
+	<div>
+	<div>absolute position 박스의 기준이 되는 컨테이닝 블록</p>
+
+	<div class="abs1">박스의 위치를 지정할 때 상용할 수 있는 오프셋 속성으로 top,right,bottom,left등이 있으며 자신이 포함된 컨테이닝 박스 위치를 기준으로 배치된다.</p>
+	</div>
+
+	<div class="abs2">박스의 위치를 지정할 때 상용할 수 있는 오프셋 속성으로 top,right,bottom,left등이 있으며 자신이 포함된 컨테이닝 박스 위치를 기준으로 배치된다.</p>
+	</div>
+
+	<p>div 요소를 .abs 박스의 컨테이닝 블록으로 지정하고 크기를 .abs 박스 레이어보다 크게 설정했지 때문에 .abs박스의 위치는 자신의 컨테이닝 블록인 div요소를 기준으로 오른쪽 하단에 배치됩니다.</p>
+
+
+
+
+
+
+
+	
+ </body>
+</html>
